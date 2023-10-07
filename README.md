@@ -1,6 +1,6 @@
 # Google Cloud Compute Engine with Terraform and Kubernetes 🚀
 
-This Terraform project automates the provisioning of a Google Cloud Compute Engine VM instance and sets up a Kubernetes cluster with Cilium CNI. Perfect for when you're too lazy to manually install all that good stuff!
+This Terraform project automates the provisioning of a Google Cloud Compute Engine VM instance and sets up a Kubernetes cluster with Cilium CNI on top of it utilizing eBPF. Perfect for when you're too lazy to manually install all that good stuff!
 
 ## Requirements 📋
 
