@@ -1,7 +1,7 @@
   #!/bin/bash
   sudo apt install openssh-client
   sudo apt install openssh-server
-  sudo ufw allow from 68.173.179.95 to any port 22
+  sudo ufw allow from {{you_public_IP}} to any port 22
   sudo ufw allow from notreallystatic.duckdns.org to any port 22
   sudo ufw --force enable
   #curl and run k3s
